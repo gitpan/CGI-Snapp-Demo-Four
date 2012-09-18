@@ -4,7 +4,7 @@ use parent 'CGI::Snapp';
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # ------------------------------------------------
 
@@ -343,15 +343,11 @@ The following are all part of this set of distros:
 
 L<CGI::Snapp> - A almost back-compat fork of CGI::Application
 
-L<CGI::Snapp::Plugin::Forward> - A plugin for CGI::Snapp to switch cleanly to another run mode within the same app
-
-L<CGI::Snapp::Plugin::Redirect> - A plugin for CGI::Snapp to simplify using HTTP redirects
-
 L<CGI::Snapp::Demo::One> - A template-free demo of CGI::Snapp using just 1 run mode
 
 L<CGI::Snapp::Demo::Two> - A template-free demo of CGI::Snapp using N run modes
 
-L<CGI::Snapp::Demo::Three> - A template-free demo of CGI::Snapp using CGI::Snapp::Plugin::Forward
+L<CGI::Snapp::Demo::Three> - A template-free demo of CGI::Snapp using the forward() method
 
 L<CGI::Snapp::Demo::Four> - A template-free demo of CGI::Snapp using Log::Handler::Plugin::DBI
 
