@@ -19,8 +19,8 @@ Module::Build -> new
  {
 	 CGI                       => 3.00,
 	 CGI::Emulate::PSGI        => 0.14,
-	 CGI::Snapp                => 1.02,
-	 Config::Plugin::Tiny      => 1.00,
+	 CGI::Snapp                => 1.03,
+	 Config::Plugin::Tiny      => 1.01,
 	 File::Spec                => 0.86,
 	 File::Temp                => 0.14,
 	 Hash::FieldHash           => 0.12,

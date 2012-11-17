@@ -19,7 +19,7 @@ use Log::Handler::Plugin::DBI; # For configure_logger(), log() and log_object().
 
 fieldhash my %config_file => 'config_file';
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # --------------------------------------------------
 
